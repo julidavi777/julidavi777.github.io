@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.piano{
+    height: 290px;
+    padding: 90px 30px 0px 30px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: green solid 1px;
+    text-align: right;
+    
+}
+.description{
+    color: rgba(158, 54, 47, 0.308);;
+    position: absolute;
+    bottom: 25px;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    
+    font-size: 20px;
+    z-index: 4;
+}
+
+.keys{
+    position: relative;
+    border: white solid 2px;
+    padding: 2px;
+    border-bottom: none;
+    padding-bottom: 0px;
+    
+}
+.white-keys{
+    display: flex;
+}
+
+.white-key{
+    width: 68px;
+    height: 280px;
+    border-radius: 0 0 5px 5px;
+    border: solid #000 2px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.black-keys{
+    position: relative;
+    display: flex;
+    
+}
+/* OK */
+
+.black-key{
+    width: 38px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+}
+
+.black-key:nth-child(1){
+    left: 48px;
+}
+.black-key:nth-child(2){
+    left: 117px;
+}
+.black-key:nth-child(3){
+    left: 253px;
+}
+.black-key:nth-child(4){
+    left: 320px;
+}
+.black-key:nth-child(5){
+    left: 389px;
+}
+.black-key:nth-child(6){
+    left: 525px;
+}
+.black-key:nth-child(7){
+    left: 594px;
+}
+.black-key:nth-child(8){
+    left: 662px;
+}
+.black-key:nth-child(9){
+    left: 797px;
+}
+.black-key:nth-child(10){
+    left: 865px;
+}

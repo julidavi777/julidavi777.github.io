@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Brain</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1>Memory Brain</h1>
+            <table>
+                <tr>
+                    <td><button onclick="showCard(0)" id="0"></button></td>
+                    <td><button onclick="showCard(1)" id="1"></button></td>
+                    <td><button onclick="showCard(2)" id="2"></button></td>
+                    <td><button onclick="showCard(3)" id="3"></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="showCard(4)" id="4"></button></td>
+                    <td><button onclick="showCard(5)" id="5"></button></td>
+                    <td><button onclick="showCard(6)" id="6"></button></td>
+                    <td><button onclick="showCard(7)" id="7"></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="showCard(8)" id="8"></button></td>
+                    <td><button onclick="showCard(9)" id="9"></button></td>
+                    <td><button onclick="showCard(10)" id="10"></button></td>
+                    <td><button onclick="showCard(11)" id="11"></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="showCard(12)" id="12"></button></td>
+                    <td><button onclick="showCard(13)" id="13"></button></td>
+                    <td><button onclick="showCard(14)" id="14"></button></td>
+                    <td><button onclick="showCard(15)" id="15"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="hits" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="time-left"class="estadisticas">Tiempo: 30</h2>
+            <h2 id="moves" class="estadisticas">Movimientos: 0</h2>
+        </section>
+    </main>
+    <div id="status" ></div>
+    <footer>
+        <p>Juego programador por <a href="">Julian Anturi</a></p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
