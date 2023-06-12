@@ -1114,52 +1114,7 @@ header #menu-btn:hover{
 
 /*--------------------- 12- Footer Area CSS (Start) ---------------------*/
 footer{
-    background-color: var(--red);
-    padding: 2rem 0;
-    text-align: center;
-}
-
-footer .social{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-footer .social .fab{
-    background-color: var(--black);
-    border-radius: 50%;
-    height: 4rem;
-    width: 4rem;
-    color: var(--white);
-    font-size: 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 0.5rem;
-}
-
-footer .social .fab:hover{
-    color: var(--black);
-    background-color: var(--white);
-}
-
-footer .content p{
-    font-size: 2rem;
-    color: var(--white);
-}
-
-footer .content p span{
-    color: var(--black);
+    background: #401
 }
 
 /*--------------------- 12- Footer Area CSS (End) ---------------------*/
